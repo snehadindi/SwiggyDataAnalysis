@@ -1,29 +1,33 @@
-# 🍽️ Swiggy Data Analysis Dashboard
+# Swiggy Data Analysis & Interactive Dashboard 🥡📊
 
-An interactive dashboard and exploratory data analysis (EDA) on restaurant data from Swiggy using Python, Pandas, and Plotly.
+This project presents an interactive data visualization dashboard built with **Plotly** to analyze restaurant data from Swiggy. It explores various insights such as restaurant types, online order availability, rating distribution, and more.
+
+## 📁 Files in This Repo
+
+| File Name                 | Description |
+|--------------------------|-------------|
+| `interactive_dashboard.py` | Main script that loads, cleans, and visualizes Swiggy data. Saves interactive HTML visualizations and opens them in your browser. |
+| `Swiggydata.csv`         | Dataset used for analysis (ensure this is added or instructions are given to download). |
+| `swiggy_analysis_report.pdf` | PDF report summarizing the key findings using static plots (if included). |
+| `README.md`              | Project description, setup guide, and usage instructions (this file). |
+
+---
 
 ## 📊 Features
 
-- 📈 Visual analysis of ratings, cost, online ordering
-- 🔥 Plotly interactive graphs (HTML files)
-- 📄 PDF report of key insights
-- 📍 Heatmaps, Histograms, Line Charts, Boxplots
+- Histogram of restaurant types
+- Line chart of total votes by restaurant type
+- Online vs. offline order availability
+- Distribution of restaurant ratings
+- Cost for two people distribution
+- Box plot: ratings vs. online orders
+- Heatmap: online order distribution by restaurant type
 
-## 🗂️ Project Structure
+---
 
-- `data/`: Original Swiggy dataset (CSV)
-- `notebooks/`: Jupyter Notebook for EDA
-- `visuals/`: Plotly visualizations (interactive)
-- `dashboard/`: Optional dashboard (Plotly or Streamlit)
-- `reports/`: Generated PDF report
+## 📦 Requirements
 
-## 📷 Screenshots
+Make sure you have the following Python libraries installed:
 
-> Include image previews or link to hosted interactive HTML files
-
-## 🚀 How to Run
-
-1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/Swiggy-Data-Analysis.git
-cd Swiggy-Data-Analysis
+pip install pandas plotly
