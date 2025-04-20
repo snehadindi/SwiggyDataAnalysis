@@ -1,33 +1,41 @@
-# Swiggy Data Analysis & Interactive Dashboard 🥡📊
+# 🍽️ Swiggy Data Analysis
 
-This project presents an interactive data visualization dashboard built with **Plotly** to analyze restaurant data from Swiggy. It explores various insights such as restaurant types, online order availability, rating distribution, and more.
-
-## 📁 Files in This Repo
-
-| File Name                 | Description |
-|--------------------------|-------------|
-| `interactive_dashboard.py` | Main script that loads, cleans, and visualizes Swiggy data. Saves interactive HTML visualizations and opens them in your browser. |
-| `Swiggydata.csv`         | Dataset used for analysis (ensure this is added or instructions are given to download). |
-| `swiggy_analysis_report.pdf` | PDF report summarizing the key findings using static plots (if included). |
-| `README.md`              | Project description, setup guide, and usage instructions (this file). |
+This project analyzes restaurant data from Swiggy, exploring trends in customer ratings, cost, online order availability, and restaurant types. It uses **Plotly**, **Pandas**, and **Matplotlib** to create interactive and insightful visualizations.
 
 ---
 
-## 📊 Features
 
-- Histogram of restaurant types
-- Line chart of total votes by restaurant type
-- Online vs. offline order availability
-- Distribution of restaurant ratings
-- Cost for two people distribution
-- Box plot: ratings vs. online orders
-- Heatmap: online order distribution by restaurant type
+## 📊 Key Visualizations
+
+| Visualization | Description |
+|---------------|-------------|
+| **Type of Restaurant Count** | Histogram showing the frequency of each restaurant category. |
+| **Total Votes per Restaurant Type** | Line plot visualizing which categories receive the most customer engagement. |
+| **Online vs Offline Orders** | Comparison of restaurants offering online vs offline orders. |
+| **Ratings Distribution** | Histogram to explore how ratings are distributed. |
+| **Cost for Two Distribution** | Histogram to identify common price brackets. |
+| **Rating by Online Order Availability** | Boxplot comparing ratings based on online ordering availability. |
+| **Heatmap of Order Mode by Restaurant Type** | Heatmap showing the correlation between online order availability and restaurant types. |
 
 ---
 
-## 📦 Requirements
+## ✅ New Features Added
 
-Make sure you have the following Python libraries installed:
+| Feature | Description |
+|---------|-------------|
+| 📌 **Cost Cleaning** | Handles commas in cost fields for proper numeric conversion. |
+| 📌 **Missing Data Handling** | Drops rows with invalid rate or cost values. |
+| 📌 **Better Plots** | Clean titles, axis labeling, rotated ticks, and layout formatting. |
+| 📌 **Correlation Heatmap** | Displays correlation between cost, rating, and votes. |
+| 📌 **Budget Restaurants Filter** | Highlights top-rated restaurants with cost ≤ ₹500 and ratings ≥ 4.0. |
+| 📌 **Modular Comments** | Sections are clearly defined and documented. |
+| 📌 **Outlier Prevention** | Skips parsing errors with try/except in the ratings column. |
 
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
 ```bash
-pip install pandas plotly
+git clone https://github.com/snehadindi/swiggydataanalysis.git
+cd swiggydataanalysis
