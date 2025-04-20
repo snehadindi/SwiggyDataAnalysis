@@ -37,5 +37,5 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/snehadindi/swiggydataanalysis.git
-cd swiggydataanalysis
+git clone https://github.com/snehadindi/SwiggyDataAnalysis.git
+cd SwiggyDataAnalysis
