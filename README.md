@@ -39,3 +39,16 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 ```bash
 git clone https://github.com/snehadindi/SwiggyDataAnalysis.git
 cd SwiggyDataAnalysis
+```
+
+### 2. Install Dependencies
+Make sure Python is installed (recommended: Python 3.8+), then run:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Notebook
+Launch Jupyter Notebook or JupyterLab:
+```bash
+jupyter notebook analysis.ipynb
+```
