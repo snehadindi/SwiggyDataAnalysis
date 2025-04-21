@@ -55,7 +55,7 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 ### 🔥 Heatmap of Online Orders by Type
 ![Plot7](plots/plot7.png)
 
-### Correlation Matrix
+### 🔗 Correlation Matrix
 ![Plot8](plots/plot8.png)
 
 
