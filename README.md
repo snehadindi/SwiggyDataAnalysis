@@ -16,6 +16,7 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 | **Cost for Two Distribution** | Histogram to identify common price brackets. |
 | **Rating by Online Order Availability** | Boxplot comparing ratings based on online ordering availability. |
 | **Heatmap of Order Mode by Restaurant Type** | Heatmap showing the correlation between online order availability and restaurant types. |
+| **Correlation Matrix** | Heatmap displaying correlations between numeric features like ratings, votes, and cost. |
 
 ---
 
@@ -30,6 +31,7 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 | 📌 **Budget Restaurants Filter** | Highlights top-rated restaurants with cost ≤ ₹500 and ratings ≥ 4.0. |
 | 📌 **Modular Comments** | Sections are clearly defined and documented. |
 | 📌 **Outlier Prevention** | Skips parsing errors with try/except in the ratings column. |
+
 
 ---
 ### 📊 Type of Restaurant Count
@@ -52,6 +54,9 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 
 ### 🔥 Heatmap of Online Orders by Type
 ![Plot7](plots/plot7.png)
+
+### Correlation Matrix
+![Plot8](plots/plot8.png)
 
 
 ## 🛠️ Setup Instructions
