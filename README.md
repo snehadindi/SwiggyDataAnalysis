@@ -32,6 +32,27 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 | 📌 **Outlier Prevention** | Skips parsing errors with try/except in the ratings column. |
 
 ---
+### 📊 Type of Restaurant Count
+![Plot1](screenshots/plot1_restaurant_type_count.png)
+
+### 🔥 Total Votes per Restaurant Type
+![Plot2](screenshots/plot2_votes_by_type.png)
+
+### 📦 Online vs Offline Order Availability
+![Plot3](screenshots/plot3_online_vs_offline.png)
+
+### ⭐ Ratings Distribution
+![Plot4](screenshots/plot4_ratings_distribution.png)
+
+### 💸 Cost Distribution
+![Plot5](screenshots/plot5_cost_distribution.png)
+
+### 📦 Ratings by Online Order
+![Plot6](screenshots/plot6_rating_boxplot.png)
+
+### 🔥 Heatmap of Online Orders by Type
+![Plot7](screenshots/plot7_heatmap.png)
+
 
 ## 🛠️ Setup Instructions
 
