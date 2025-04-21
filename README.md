@@ -33,25 +33,25 @@ This project analyzes restaurant data from Swiggy, exploring trends in customer 
 
 ---
 ### 📊 Type of Restaurant Count
-![Plot1](screenshots/plot1_restaurant_type_count.png)
+![Plot1](plots/plot1.png)
 
 ### 🔥 Total Votes per Restaurant Type
-![Plot2](screenshots/plot2_votes_by_type.png)
+![Plot2](plots/plot2.png)
 
 ### 📦 Online vs Offline Order Availability
-![Plot3](screenshots/plot3_online_vs_offline.png)
+![Plot3](plots/plot3.png)
 
 ### ⭐ Ratings Distribution
-![Plot4](screenshots/plot4_ratings_distribution.png)
+![Plot4](plots/plot4.png)
 
 ### 💸 Cost Distribution
-![Plot5](screenshots/plot5_cost_distribution.png)
+![Plot5](plots/plot5.png)
 
 ### 📦 Ratings by Online Order
-![Plot6](screenshots/plot6_rating_boxplot.png)
+![Plot6](plots/plot6.png)
 
 ### 🔥 Heatmap of Online Orders by Type
-![Plot7](screenshots/plot7_heatmap.png)
+![Plot7](plots/plot7.png)
 
 
 ## 🛠️ Setup Instructions
